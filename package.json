@@ -1,0 +1,28 @@
+{
+    "name": "Weather App U",
+    "version": "1.0.0",
+    "description": "\"# weather-Journal-App\"",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cor": "0.0.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PavlisPetros/weather-Journal-App.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PavlisPetros/weather-Journal-App/issues"
+    },
+    "homepage": "https://github.com/PavlisPetros/weather-Journal-App/blob/main/README.md"
+}

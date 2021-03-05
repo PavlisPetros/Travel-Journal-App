@@ -1,0 +1,187 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  color: #0e0d08;
+  font-weight: 350;
+}
+body {
+  background-image: url(sky.jpg);
+}
+
+#Mainapp {
+  justify-content: center;
+  font-size: 23px;
+  margin: 1.8rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* Start style for container*/
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.3rem 0;
+}
+
+.input {
+  text-align: center;
+  display: block;
+  height: 40px;
+  background: #9ffaff;
+  color: rgba(7, 6, 0, 0.747);
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+
+.holder__title {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #070600;
+  box-shadow: 2px 4px 5px #444;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  background-color: #f7f7ff;
+}
+
+.holder__label {
+  display: block;
+  margin: 1.2rem 0;
+  font-weight: 300;
+  text-align: center;
+  line-height: 150%;
+  font-size: 1.3rem;
+}
+
+.textarea {
+  height:50px;
+  text-align: center;
+  background: #f7f7ff;
+  color: #070600;
+  font-size: 0.9rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  resize: none;
+}
+
+.holder__textarea::placeholder {
+  color: #070600;
+}
+
+
+.entry {
+  background: #f7f7ff;
+  border-radius: 5px;
+  color: #070600;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.3rem 0;
+  width: 100%;
+}
+
+#entryHolder {
+  color:darkorange;
+  text-align: center;
+  font-weight: bold;
+}
+.title1 {
+  color:#f10cc0;
+  margin: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.entry__title {
+  margin: 0.5rem 0;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#date {
+  color:darkblue;
+  margin: 1rem 0;
+}
+
+#temp {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+#content {
+  margin: 1rem 0;
+}
+
+#ShowFeelings {
+  margin-top: 2rem;
+  color: #d943ff;
+  font-weight: bold;
+}
+.btnOne{
+  text-align: center;
+  width: 100%;
+}
+
+/* button */
+.btn {
+  height: 150px;
+  width: 150px;
+  background: #f10cc0;
+  color: #fadcef;
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 1.3rem;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #057979;
+}
+
+
+
+@media (max-width: 900px) {
+  #app {
+    padding: 1rem;
+    margin: 0;
+    width: 350px;
+ 
+  }
+
+  .holder__title {
+    font-size: 1.4rem;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+}
+
+
